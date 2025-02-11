@@ -22,7 +22,7 @@ isPrime(23)
 
 let n=19
 let isPrime = true
-if(n<2){
+if(n<=2){
     isPrime= false
 }
 for(i=2;i<=n;i++){
